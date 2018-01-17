@@ -10,26 +10,47 @@
 
 <body>
 
-<section>
-  <h1>Rock, Paper, Scissors</h1>
-  <h2>Try your luck, win great prizes!*</h2>
-  ---------
-  <div>
-    <h4>All games are against the computer. First one to five wins. <br> <span>Good luck!</span></h4>
+  <section>
+    <h1>Rock, Paper, Scissors</h1>
+    <h2>Try your luck, win great prizes!*</h2>
+    ---------
+    <div id="msg">
+      <h4>All games are against the computer. First one to five wins. <br> <span>Good luck!</span></h4>
+    </div>
+
+
+    <li>
+      <button type="button" onclick="game(1)" id="1">Rock</button>
+      <button type="button" onclick="game(2)" id="2">Paper</button>
+      <button type="button" onclick="game(3)" id="3">Scissors</button>
+      <button type="button" onclick="replay()" id="replay">Play again?</button>
+    </li>
+
+    <h6><em>*The intent is to provide players with a sense of pride and accomplishment.</em></h6>
+  </section>
+
+  <div class="scoreboard">
+    <div class="player">
+      <h2>Player: <span id="playerscore">0</span></h2>
+    </div>
+    <div class="computer">
+      <h2>Computer: <span id="computerscore">0</span></h2>
+    </div>
+  </div>
+
+  <div class="picks">
+    <div class="player">
+      <h2>Your pick: <span id="playerchoice"></span></h2>
+    </div>
+    <div class="computer">
+      <h2>Computer pick: <span id="computerchoice"></span></h2>
+    </div>
   </div>
 
 
-  <li>
-    <a href="#" id="rock">Rock</a>
-    <a href="#" id="paper">Paper</a>
-    <a href="#" id="scissors">Scissors</a>
-  </li>
 
-  <h6><em>*The intent is to provide players with a sense of pride and accomplishment.</em></h6>
-</section>
+  <script type="text/javascript" src="script.js"></script>
 
-
-<script type="text/javascript" src="script.js"></script>
 <body>
 
 <html>
