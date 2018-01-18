@@ -48,6 +48,7 @@ function replay() {
   document.getElementById('2').style.display = 'inline-block';
   document.getElementById('3').style.display = 'inline-block';
   document.getElementById('replay').style.display = 'none';
+  msg.textContent = "Here we go again. Good luck!"
 }
 
 /*
@@ -65,6 +66,7 @@ Game and rounds
 function game(choice) {
 
     document.getElementById("msg").style.fontSize = "xx-large";
+    document.getElementById("msg").style.paddingTop = "21px";
 
   if (choice === 1) {
 
