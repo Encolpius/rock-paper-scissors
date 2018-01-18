@@ -39,7 +39,8 @@ button {
   text-decoration: none;
   border-radius: 20px;
   background-color: blue;
-  margin: 5px;
+  margin: 5px 15px;
+  min-width: 99px;
   color: white;
   padding: 12px 20px;
   border: 0px solid;
