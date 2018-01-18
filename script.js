@@ -79,7 +79,7 @@ function game(choice) {
     } else if (computerSelection === 'paper') {
       computerCount ++;
       computerScore.textContent = computerCount;
-      msg.textContent = "Paper smoothes Rock. You lose.";
+      msg.textContent = "Paper tops Rock. You lose.";
     } else {
       msg.textContent = "Womp womp, it's a tie..."
     }
